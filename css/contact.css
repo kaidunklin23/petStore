@@ -1,5 +1,26 @@
+body{
+    font-family: 'Antic Slab', serif;
+
+}
 #cart{
     height: 25px;
     width: auto;
 
 }
+
+.map{
+    height: 200px;
+    width: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.card-footer{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+.navbar{
+    width: auto;
+    height: 1in;
+    font-size: 2rem;} 

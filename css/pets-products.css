@@ -1,3 +1,7 @@
+body{
+  font-family: 'Antic Slab', serif;
+
+}
 #cart{
     height: 25px;
     width: auto;
@@ -12,7 +16,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #30c1ff;
+    background-color: #0ce71b;
     overflow-x: hidden;
     padding-top: 20px;
   }
@@ -43,4 +47,16 @@
 #btn{
     width: 130px;
 
+}
+.map{
+  height: 200px;
+  width: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.card-footer{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
 }
