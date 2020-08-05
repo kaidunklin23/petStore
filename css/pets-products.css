@@ -16,9 +16,11 @@ body{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #0ce71b;
+    background-color: #677C3C;
     overflow-x: hidden;
     padding-top: 20px;
+  
+
   }
 
 .sidenav a {
@@ -29,7 +31,7 @@ body{
     display: block;
   }
   
-.sidenav a:hover {
+.sidenav :hover {
     color: #f1f1f1;
   }
   
@@ -43,6 +45,9 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+   
+    
 }
 #btn{
     width: 130px;
@@ -59,4 +64,8 @@ body{
  flex-direction: row;
  align-items: center;
  justify-content: center;
+}
+.link{
+  margin-bottom: 20px ;
+  color:white;
 }
