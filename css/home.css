@@ -1,41 +1,70 @@
 body{
     font-family: 'Antic Slab', serif;
+ 
 
 }
-#cart{
-    height: 50px;
-    width: auto;
 
-}
- .navbar{
-    width: auto;
-    height: 1in;
-    font-size: 2rem;} 
-.footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
- }
- .map{
-     height: 200px;
-     width: 200px;
-     margin-left: 200px;
-     margin-right: 200px;
- }
- .card-footer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.button{
+    height:70px;
+    width: 70px;
     justify-content: center;
- }
-.card2{
-    position: absolute;
-    top: 100px;
-    left:700px;
-    background-color: white;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+.map{
+    height: 200px;
+    width: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.footer{
+   display: flex;
+   flex-direction: row;
+   /* align-items: center; */
+   justify-content: center;
+  
+   
+}
+ nav{
+    color:black;
+    height: 1.5in;
+    font-size: 2rem;} 
+
+.bone{
+    width: 135px;
     height: auto;
-    width: 600px;
+}
+.link{
+    color: black;
+}
+.background{
+       background-image: url(./pets.png);
+       z-index: 0;
+    
+}
+.jumbotron{
+    padding:0;
+}
+.feature{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+    position: relative;
+}
+
+p{
+    margin: 0 0 0 0;
+}
+.fox {
+    background-image: url(./pets.png);
+    padding:0;
+    /* background-size: contain; */
+    background-size: 1000px;
+
+    background-position: center;
+    background-repeat: no-repeat;
 }
