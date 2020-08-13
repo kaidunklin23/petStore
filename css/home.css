@@ -1,14 +1,16 @@
 body{
-    font-family: 'Antic Slab', serif;
-  
+    font-family: 'Lemonada', cursive;
+    background-color: rgb(161, 242, 245);
+    color: black;
 
 }
 .navbar{
     background-color: #ffee00;
-    font-size: 40px;
+    font-size: 50px;
     display: flex;
     justify-content: space-evenly;
-    margin-left: -500px;
+    margin-left: 0px;
+    
 }
 
 .map{
@@ -39,21 +41,7 @@ img{
     width: 100%;
     height: auto;
     z-index: 0;
-    position: relative;
 }
-#contact-us{
-    position: absolute;
-    margin-left: 1700px;
-    margin-right:1700px;
-    margin-top: 500px;
-    font-size: 40px;
-    z-index: 1;
-}
-#pets{
-    position: absolute;
-    z-index: 1;
-}
-#products{
-    position: absolute;
-    z-index: 1;
+a{
+    color: black;
 }

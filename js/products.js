@@ -29,6 +29,11 @@ var productArray =[{
     text: "goofy chew toy for any animal with teeth",
     picture: "./productPage/goofyToy.jpeg"
     
+},
+{
+    name: 'Bones',
+    text: "Dont let em eat yours",
+    picture: "./productPage/dogbone.jpeg"
 }
 ]
 

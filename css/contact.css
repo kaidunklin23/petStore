@@ -1,14 +1,16 @@
 body{
-    font-family: 'Antic Slab', serif;
- background: rgb(239,65,121);
+    font-family: 'Lemonada', cursive;
+    background-color: rgb(161, 242, 245);
+    
 
 }
 .navbar{
     background-color: #ffee00;
-    font-size: 40px;
+    font-size: 50px;
     display: flex;
     justify-content: space-evenly;
-    margin-left: -500px;
+    margin-left: 0px;
+    
 }
 .button{
     height:70px;
@@ -91,4 +93,7 @@ h1{
 label{
     font-size: 50px;
     margin-top: 20px
+}
+a{
+    color: black;
 }

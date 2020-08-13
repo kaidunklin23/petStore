@@ -1,14 +1,18 @@
 body{
-  font-family: 'Antic Slab', serif;
+  font-family: 'Lemonada', cursive;
   margin-right: 0;
   padding-right: 0%;
+  background-color: rgb(161, 242, 245);
+  color: black;
+
 }
 .border-right{
-  background-color: #ffee00;
+  background-color: #f0e444;
   width: 300px;
   text-align: center;
   font-size: 40px;
-
+  height: 101.5vh;;
+  z-index: 1;
 }
 #cart{
     height: 25px;
@@ -53,9 +57,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
-    
+    justify-content: center;    
    
     
 }
@@ -72,6 +74,9 @@ body{
  justify-content: space-between;
   width:100%;
   height: 50%;
+  z-index: 0;
+  background-color: #f0e444;
+
 }
 .link{
   margin-bottom: 20px ;

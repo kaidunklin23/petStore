@@ -29,6 +29,11 @@ var petArray =[{
     text: "Definitly need to be active and strong for this dog, fun but only with owner",
     picture: "./petPage/buff.jpeg"
     
+},
+{
+    name:'Squek',
+    text:"Cute and small, likes to run",
+    picture:'./PetPage/hamster.jpeg'
 }
 ]
 
