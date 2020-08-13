@@ -2,32 +2,32 @@ console.log('connected');
 var petArray =[{
     name: 'Spot',
     text: "Big Baby with pretty spots",
-    picture: "./petPage/Spot.jpeg"
+    picture: "./PetPage/Spot.jpeg"
     
 },
 {
     name: 'Bella',
     text: "So cute and loves to play with toys",
-    picture: "./petPage/Bella.jpeg"
+    picture: "./PetPage/Bella.jpeg"
     
 },
 {
     name: 'Charlie', 
     text: "Clingy, hates being alone, great for carrying",
-    picture: "./petPage/Charlie.jpeg"
+    picture: "./PetPage/Charlie.jpeg"
 },
     
    
 {
     name: 'Daisy',
     text: "Very hype most of time, might bit or nibble if you get your fingers too close to mouth",
-    picture: "./petPage/Daisy.jpeg"
+    picture: "./PetPage/Daisy.jpeg"
     
 },
 {
     name: 'Mike',
     text: "Definitly need to be active and strong for this dog, fun but only with owner",
-    picture: "./petPage/buff.jpeg"
+    picture: "./PetPage/buff.jpeg"
     
 },
 {
