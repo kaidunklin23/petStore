@@ -2,57 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/pets-products.css">
-    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-    <title>Document</title>
+
+    <title>Pet Page</title>
 </head>
 <body>  
+   <!-- Div holding Nav Start -->
+  <div class="d-flex" id="wrapper">
+
+    <!-- Side Navbar -->
+    <div class=" border-right" id="sidebar-wrapper">
+      <img src="./PetPage/ProductBone.png" alt="Bone" id="bone">
+      <div class="sidebar-heading center"></div>
+      <div class="list-group list-group-flush">
+        <a class="nav-item nav-link font-os font-size-16 active" href="./index.html">Home</a>
+        <a class="nav-item nav-link font-os font-size-16 active" href="./pets.html">Pets</a>
+        <a class="nav-item nav-link font-os font-size-16 active " href="./products.html">Products</a>
+        <a class="nav-item nav-link font-os font-size-16 active " href="./contact.html">Contact Us</a>
+      </div>
+    </div>
+   
+
+  <div class="col-8">
+  <div id="animals" class="column"></div>
+  
+</div>
+</div>
+  <div id='footer'>
+
+    <div id="hours">
+      <h2>Store Hours:</h2>
+      <p>Monday: 9am-8pm</p>
+      <p>Tuesday: 9am-8pm</p>
+      <p>Wensday: 9am-8pm</p>
+      <p>Thurday: 9am-8pm</p>
+      <p>Friday: 9am-7pm</p>
+      <p>Saturday: 9am-6pm</p>
+      <p>Sunday: 9am-6pm</p>
+    </div>
+
+    <div id='map'>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d396238.55192896526!2d-84.77325174722701!3d39.115264461726376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8841b39afdef07ed%3A0x8b070207c0a45d49!2sCincinnati%20Zoo%20%26%20Botanical%20Garden!5e0!3m2!1sen!2sus!4v1596561441730!5m2!1sen!2sus" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></a>
+     </div>
+     <div id='phone'>
+        Contact Us @ <a href="#" class="text-dark">513-720-3870</a>
+     </div>
     
-    <div class='sidenav' id="div">
-    <nav class="navbar navbar-light center" style="background-color: #677C3C;" >
-        
-        <form class="form-inline">
-          <input class="form-control " id="search" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-light " id='btn'type="submit">Search</button>
-        </form>
-        
-          <a class="navbar-brand link col-med-3" href="./index.html">Home</a>
-          <a class="navbar-brand link col-med-3" href="./pets.html">Pets</a>
-          <a class="navbar-brand link col-med-3" href="./products.html">Products</a>
-          <a class="navbar-brand link col-med-3" href="./contact.html">Contact Us</a>
-          <button class='navbar-brand '><img src="data:image/png;base64,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" id='cart'></button>
-        </nav>
 
-    </div>
-    <img src="./css/pets.png" alt="">
-    </div>
-
-    <div class='card-footer'>
-
-      <div class="hours">
-        <h2>Store Hours:</h2>
-        <p>Monday: 9am-8pm</p>
-        <p>Tuesday: 9am-8pm</p>
-        <p>Wensday: 9am-8pm</p>
-        <p>Thurday: 9am-8pm</p>
-        <p>Friday: 9am-7pm</p>
-        <p>Saturday: 9am-6pm</p>
-        <p>Sunday: 9am-6pm</p>
-      </div>
-
-      <div class='map'>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d396238.55192896526!2d-84.77325174722701!3d39.115264461726376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8841b39afdef07ed%3A0x8b070207c0a45d49!2sCincinnati%20Zoo%20%26%20Botanical%20Garden!5e0!3m2!1sen!2sus!4v1596561441730!5m2!1sen!2sus" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></a>
-       </div>
-       <div class='phone'>
-          Contact Us @ <a href="tel:5137203870">513-720-3870</a>
-       </div>
-      </div>
-
-
-    <script src="./pets.js"></script>
+</div>
+    <script src="./js/products.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>

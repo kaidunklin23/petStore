@@ -1,11 +1,22 @@
 body{
     font-family: 'Antic Slab', serif;
+ background: rgb(239,65,121);
 
 }
-#cart{
-    height: 25px;
-    width: auto;
-
+.navbar{
+    background-color: #ffee00;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -500px;
+}
+.button{
+    height:70px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
 }
 
 .map{
@@ -14,13 +25,70 @@ body{
     margin-left: 200px;
     margin-right: 200px;
 }
-.card-footer{
+.footer{
    display: flex;
    flex-direction: row;
    align-items: center;
    justify-content: center;
+   height: 400px;
 }
-.navbar{
-    width: auto;
-    height: 1in;
+ nav{
+    color:black;
+    height: 1.5in;
     font-size: 2rem;} 
+
+.bone{
+    width: 135px;
+    height: auto;
+}
+.link{
+    color: black;
+}
+.background{
+     
+       z-index: -1;
+       position: absolute;
+    
+}
+.jumbotron{
+    padding:0;
+}
+.feature{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+    position: relative;
+}
+
+p{
+    margin: 0 0 0 0;
+}
+.fox {
+      background-size: contain;
+    background-size: 1000px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#contact{
+    text-align: center;
+    
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#message{
+    height: 400px;
+    width: 20vw;  
+}
+h1{
+    font-size: 100px;
+}
+label{
+    font-size: 50px;
+    margin-top: 20px
+}

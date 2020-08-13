@@ -1,16 +1,14 @@
 body{
     font-family: 'Antic Slab', serif;
- 
+  
 
 }
-
-.button{
-    height:70px;
-    width: 70px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0;
+.navbar{
+    background-color: #ffee00;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -500px;
 }
 
 .map{
@@ -22,49 +20,40 @@ body{
 .footer{
    display: flex;
    flex-direction: row;
-   /* align-items: center; */
+   align-items: center;
    justify-content: center;
-  
    
 }
  nav{
     color:black;
     height: 1.5in;
-    font-size: 2rem;} 
+    font-size: 2rem;
+}
+#body{
+    height: 100%;
+    width: 100%;
 
-.bone{
-    width: 135px;
+} 
+
+img{
+    width: 100%;
     height: auto;
-}
-.link{
-    color: black;
-}
-.background{
-       background-image: url(./pets.png);
-       z-index: 0;
-    
-}
-.jumbotron{
-    padding:0;
-}
-.feature{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-header {
+    z-index: 0;
     position: relative;
 }
-
-p{
-    margin: 0 0 0 0;
+#contact-us{
+    position: absolute;
+    margin-left: 1700px;
+    margin-right:1700px;
+    margin-top: 500px;
+    font-size: 40px;
+    z-index: 1;
 }
-.fox {
-    background-image: url(./pets.png);
-    padding:0;
-    /* background-size: contain; */
-    background-size: 1000px;
-
-    background-position: center;
-    background-repeat: no-repeat;
+#pets{
+    position: absolute;
+    z-index: 1;
+}
+#products{
+    position: absolute;
+    z-index: 1;
 }

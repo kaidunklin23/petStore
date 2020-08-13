@@ -1,5 +1,13 @@
 body{
   font-family: 'Antic Slab', serif;
+  margin-right: 0;
+  padding-right: 0%;
+}
+.border-right{
+  background-color: #ffee00;
+  width: 300px;
+  text-align: center;
+  font-size: 40px;
 
 }
 #cart{
@@ -9,29 +17,30 @@ body{
 
 }
 
-.sidenav {
+.left {
     height: 100%;
     width: 180px;
     position: fixed;
-    z-index: 1;
+    z-index: 0;
     top: 0;
     left: 0;
     background-color: #677C3C;
-    overflow-x: hidden;
+    /* overflow-x: visible; */
     padding-top: 20px;
   
 
   }
 
-.sidenav a {
+.left a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
+    
   }
   
-.sidenav :hover {
+.left :hover {
     color: #f1f1f1;
   }
   
@@ -46,26 +55,104 @@ body{
     align-items: center;
     justify-content: center;
     
+    
    
     
+}
+#sidebar-wrapper{
+  color:black;
 }
 #btn{
     width: 130px;
 
 }
-.map{
-  height: 200px;
-  width: 200px;
-  margin-left: 200px;
-  margin-right: 200px;
-}
-.card-footer{
- display: flex;
- flex-direction: row;
- align-items: center;
- justify-content: center;
+
+#footer{
+  display: flex;
+ justify-content: space-between;
+  width:100%;
+  height: 50%;
 }
 .link{
   margin-bottom: 20px ;
   color:white;
 }
+#header{
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index:1;
+    transition: left .5s ease;
+    height: 100%;
+}
+
+nav{
+  height: 100%;
+  
+
+}
+#phone{
+ 
+  display: inline-block;
+  text-align: center;
+  margin-right: 500px;
+}
+#map{
+  
+  display: inline-block;
+  text-align: center;
+  
+
+}
+#hours{
+
+  display: inline-block;
+  text-align: center;
+  margin-left: 500px;
+
+}
+#adddiv{
+  height: min-content;
+}
+#add{
+  position:absolute;
+    bottom:0;
+    right:0;
+}
+
+#animals{
+  display: table;
+  width: 90vw;
+}
+.dog{
+  display: flex;
+  flex-direction: row;
+  border-bottom: black solid 3px ;
+  margin-bottom: 20px;
+  position:relative;
+ 
+
+}
+#pic{
+  height: 300px;
+  width:300px;
+  border: 6px double #000000;
+}
+.body{
+  font-size: 40px;
+  margin-left: 10px
+}
+#bone{
+  height: max-content;
+  width: auto;
+}
+.col-8{
+  padding:0;
+  margin: 5px
+}
+
+a{
+  color: black;
+}
+
