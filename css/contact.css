@@ -1,3 +1,46 @@
+
+/* Monitors */
+@media only screen and (max-width : 8000px) {
+  body{
+      width: 6000px;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 3500px) {
+  body{
+      width: 2000px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 2500px) {
+      body{
+          width: 2000px;
+      }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 1500px) {
+  body{
+      width: 1000px;
+  }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 1000px) {
+  body{
+      width: 500px;
+  }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 520px) {
+  body{
+      width: 320px;
+  }
+}
+
 body{
     font-family: 'Lemonada', cursive;
     background-color: rgb(161, 242, 245);
